@@ -35,7 +35,9 @@ A self made implementation of the Bernoulli Restricted Boltzmann Machine using C
        purpose : Used to train the weights (W), biases from visible nodes to hidden nodes (a) 
                  & biases from the hidden nodes to the visible nodes (b) 
                  of the RBM according to the Contrastive Divergence formulae given below.
-   ![image of formulae](http://deeplearning.net/tutorial/_images/math/aaf04e6e2c43def4c009e913bff8a44a6baffa65.png)
+   ![image of formulae](http://eric-yuan.me/wp-content/uploads/2014/07/5551.jpg)
+   
+   (http://deeplearning.net/tutorial/_images/math/aaf04e6e2c43def4c009e913bff8a44a6baffa65.png)
         
         
  
