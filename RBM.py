@@ -4,6 +4,8 @@ Created on Sat Sep 28 21:23:00 2019
 
 @author: Uchiha Madara
 """
+import pytorch
+
 class RBM():
     def __init__(self, nv, nh):
         self.W = torch.randn(nh, nv)
