@@ -22,20 +22,20 @@ A self made implementation of the Bernoulli Restricted Boltzmann Machine using C
     
     returns : P(v|x), Bernoulli(P(v|x))
         a.P(v|x) = Probability of visible node's activation given the values (x) in the hidden nodes.
-        b.Bernoulli(P(v|x)) = Activations of the visible neurons based on the Bernoulli Distribution and the acquired probability P(v|x).
-  # 4. 
-   ''' python
-           rbm.train(v0, vk, ph0, pk)
-   '''
+        b.Bernoulli(P(v|x)) = Activations of the visible neurons based on 
+          the Bernoulli Distribution and the acquired probability P(v|x).
+  # 4. rbm.train(v0, vk, ph0, pk)
        v0 = The correct values in the initial input.
        vk = acquired values in visible nodes after k iterations of the Gibbs Sampling (G.S.).
        ph0 = Probability of hidden node's activation given the input values (v0) in the visible nodes.
-       phk = Probability of hidden node's activation given the input values after k iterations of G.S. (vk) in the visible nodes.
+       phk = Probability of hidden node's activation given the input values 
+             after k iterations of G.S. (vk) in the visible nodes.
     
        returns : null.
-       purpose : Used to train the weights (W), biases from visible nodes to hidden nodes (a) & biases from the hidden nodes to the visible nodes (b) of the RBM according to the Contrastive Divergence formulae.
-       
- ![image of formulae](http://deeplearning.net/tutorial/_images/math/aaf04e6e2c43def4c009e913bff8a44a6baffa65.png)
+       purpose : Used to train the weights (W), biases from visible nodes to hidden nodes (a) 
+                 & biases from the hidden nodes to the visible nodes (b) 
+                 of the RBM according to the Contrastive Divergence formulae.
+        ![image of formulae](http://deeplearning.net/tutorial/_images/math/aaf04e6e2c43def4c009e913bff8a44a6baffa65.png)
         
         
  
