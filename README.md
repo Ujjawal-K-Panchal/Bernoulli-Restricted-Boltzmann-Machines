@@ -7,7 +7,7 @@ A self made implementation of the Bernoulli Restricted Boltzmann Machine using C
 # How to use?
 1. Put the RBM.py file in your project's folder.
 2. Import RBM like you'd import a normal Python Library. (from RBM import *)
-3. An example of usage is provided [here](https://github.com/Ujjawal-K-Panchal/Movie-Recommendation-using-Restricted-Boltzmann-Machines).
+3. An example of usage is provided here [(Movie Recommendation using Restricted Boltzmann machines)](https://github.com/Ujjawal-K-Panchal/Movie-Recommendation-using-Restricted-Boltzmann-Machines).
 # Class Description : 
   # 1. rbm = RBM(nv, nh)
     nv = Number of visible nodes. (Determined by number of features in your i/p.)
